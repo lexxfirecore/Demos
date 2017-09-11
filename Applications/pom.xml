@@ -10,6 +10,7 @@
 
     <modules>
         <module>SendMail</module>
+        <module>TextProcessor</module>
     </modules>
 
 </project>
