@@ -9,22 +9,12 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-
+        <module>JEE_Servlet</module>
+        <module>SpringMVCDemo</module>
+        <module>SpringBootDemo</module>
+        <module>HibernateWebDemo</module>
+        <module>HibernateJPAWebDemo</module>
     </modules>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-core</artifactId>
-            <version>4.3.11.Final</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <version>1.4.187</version>
-        </dependency>
-    </dependencies>
 
 
 </project>

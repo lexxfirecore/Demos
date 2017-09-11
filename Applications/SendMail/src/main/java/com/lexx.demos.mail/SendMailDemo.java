@@ -1,4 +1,4 @@
-package com.lexxstudy;
+package com.lexx.demos.mail;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
