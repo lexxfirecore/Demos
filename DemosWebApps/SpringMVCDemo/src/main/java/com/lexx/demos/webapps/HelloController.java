@@ -1,4 +1,4 @@
-package com.demo;
+package com.lexx.demos.webapps;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

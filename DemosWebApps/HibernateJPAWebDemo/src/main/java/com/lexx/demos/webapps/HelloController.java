@@ -1,4 +1,4 @@
-package com.demo;
+package com.lexx.demos.webapps;
 
 import java.util.List;
 import org.springframework.stereotype.Controller;
@@ -34,6 +34,7 @@ public class HelloController {
 
         List<Book> bookList = BookManager.getBooks();
         for (Book book : bookList) {
+            model.addAttribute("id", book.getId());
             model.addAttribute("title", book.getTitle());
             model.addAttribute("author", book.getAuthor());
             model.addAttribute("isbn", book.getIsbn());

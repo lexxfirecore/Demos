@@ -1,4 +1,4 @@
-package com.demo;
+package com.lexx.demos.webapps;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

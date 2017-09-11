@@ -1,4 +1,4 @@
-package com.lexxstudy;
+package com.lexx.demos.webapps;
 
 import java.io.IOException;
 import java.io.PrintWriter;

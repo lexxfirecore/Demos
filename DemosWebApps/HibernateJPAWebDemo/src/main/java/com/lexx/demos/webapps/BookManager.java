@@ -1,4 +1,4 @@
-package com.demo;
+package com.lexx.demos.webapps;
 
 import java.util.ArrayList;
 import java.util.List;
