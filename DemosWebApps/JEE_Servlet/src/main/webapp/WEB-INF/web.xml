@@ -6,7 +6,7 @@
     <display-name>Archetype Created Web Application</display-name>
     <servlet>
         <servlet-name>MyServletName</servlet-name>
-        <servlet-class>com.lexxstudy.MyServlet</servlet-class>
+        <servlet-class>com.lexx.demos.webapps.MyServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>MyServletName</servlet-name>

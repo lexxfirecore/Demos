@@ -12,7 +12,7 @@
 
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
-        <class>com.demo.Book</class>
+        <class>com.lexx.demos.webapps.Book</class>
         <properties>
             <property name="javax.persistence.schema-generation.database.action"
                       value="drop-and-create"/>
