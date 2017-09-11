@@ -1,0 +1,19 @@
+Field Name,Title/Caption,NEW Title/Caption
+ActivityStateModifiedDateTime,Current Activity State Date Time,Current Activity State
+ClaimStatementBeginDate,Service Begin Date,Service Begin
+ClaimStatementEndDate,Service End Date,Service End
+ClmLoadDateTime,Load Date Time,Loaded
+CreationDateTime,Creation Date Time,Created
+ProductionDate,Production Date,Production
+CurrentStatusModifiedDateTime,Current Validation Status Date Time,Current Validation Status
+CheckIssueDate,Payment Exception Date,Payment Exception
+ClmPmtReceivedDate,Claim Received Date,Claim Received
+ClmPmtStatementPeriodStartDate,Claim Statement Period Begin Date,Claim Statement Period Begin
+ClmPmtStatementPeriodEndDate,Claim Statement Period End Date,Claim Statement Period End
+EligibilityBeginDate,Eligibility Begin Date,Eligibility Begin
+EligibilityEndDate,Eligibility End Date,Eligibility End
+InterchangeDateTime,Interchange Date Time,Interchange Created
+TransmissionCreatedDateTime,Transmission Creation Date Time,Transmission Created
+startDateClmStatementBegin,Service Begin Date,Service Begin
+startDateClmStatementEnd,Service End Date,Service End
+NCPDPCreationDateTime,NCPDP Batch Date Time,NCPDP Batch Created

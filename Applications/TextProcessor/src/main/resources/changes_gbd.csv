@@ -1,0 +1,46 @@
+GBD Field,Title/Caption,NEW Title/Caption
+AdmissionDate,Admission Date,Admission
+BatchCreationDateTime,Batch Creation Date Time,Batch Created
+BatchCreationDateTime,Batch Creation on,Batch Created
+CertificationEffectiveDate,Certification Effective Date,Certification Effective
+CertificationExpirationDate,Certification Expiration Date,Certification Expiration
+CoverageBeginDate,Coverage Begin Date,Coverage Begin
+CoverageEndDate,Coverage End Date,Coverage End
+DispositionModifiedDT,Disposition Modified Date Time,Disposition Modified
+EligibilityBeginDate,Begin Date,Begin
+EligibilityEndDate,End Date,End
+EventDate,Event Date,Event
+FormatValidationStatusModifiedDT,Format Validation Status Modified Date Time,Format Validation Status Modified
+FunctionalGroupDateTime,Functional Group Date Time,Functional Group
+InterchangeDateTime,Interchange Date Time,Interchange Created
+IssueDate,Issue Date,Issued
+LoadDT,Load Date,Loaded
+LoadDT,Load Date Time,Loaded
+MaintenanceEffectiveDate,Maintenance Effective Date,Maintenance Effective
+PaymentIssueDate,Payment Issue Date,Payment Issue
+PlanBeginDate,Plan Begin Date,Plan Begin
+PlanEndDate,Plan End Date,Plan End
+ProductionDate,Production Date,Production
+ReceiptDT,Receipt Date Time,Receipt
+ReportBeginDate,Report Begin Date,Report Begin
+ReportEndDate,Report End Date,Report End
+ResponseDueDate,Response Due Date,Response Due
+ServiceBeginDate,Service Begin Date,Service Begin
+ServiceEndDate,Service End Date,Service End
+ServiceEndDate,Claim Service End Date,Claim Service End
+startDateBatchCreationDateTime,Batch Creation Date Time,Batch Creation
+startDateCoverageBeginDate,Coverage Begin Date,Coverage Begin
+startDateCoverageEndDate,Coverage End Date,Coverage End
+startDateFunctionalGroupDateTime,Functional Group Date Time,Functional Group
+startDateInterchangeDateTime,Interchange Date Time,Interchange Created
+startDateMaintenanceEffectiveDate,Maintenance Effective Date,Maintenance Effective
+startDatePlanBeginDate,Plan Begin Date,Plan Begin
+startDatePlanEndDate,Plan End Date,Plan End
+startDateProductionDate,Production Date,Production
+startDateReceiptDT,Receipt Date Time,Receipt
+startDateReportBeginDate,Report Begin Date,Report Begin
+startDateReportEndDate,Report End Date,Report End
+startDateServiceBeginDate,Service Begin Date,Service Begin
+startDateServiceEndDate,Service End Date,Service End
+StatusInformationEffectiveDate,Status Information Effective Date,Status Information Effective
+StatusInformationEffectiveDate,Request Date,Requested

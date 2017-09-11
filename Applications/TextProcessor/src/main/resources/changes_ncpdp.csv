@@ -1,0 +1,9 @@
+Field,Old Title/Caption,NEW Title/Caption
+ActivityStateModifiedDT,Activity State Modified Date Time,Activity State Modified
+BatchCreationDateTime,Batch Creation on,Batch Created
+DispositionModifiedDT,Disposition Modified Date Time,Disposition Modified
+FormatValidationStatusModifiedDT,Format Validation Status Modified Date Time,Format Validation Status Modified
+LoadDT,Load Date Time,Loaded
+ReceiptDT,Receipt Date Time,Receipt
+RequestBeginDate,Request Begin Date,Request Begin
+BatchCreateDateTime,Batch Create Date Time,Batch Created
