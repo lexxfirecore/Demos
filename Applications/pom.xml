@@ -12,7 +12,8 @@
     <modules>
         <module>SendMail</module>
         <module>TextProcessor</module>
-        <module>I18N_Rus</module>
+        <module>RussianLocalization</module>
+        <module>GenerateCode</module>
     </modules>
 
 </project>

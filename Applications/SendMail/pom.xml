@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lexx.demos.apps</groupId>
-    <artifactId>MailDemo</artifactId>
+    <artifactId>SendMail</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/com.sun.mail/javax.mail -->
