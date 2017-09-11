@@ -14,6 +14,7 @@
         <module>TextProcessor</module>
         <module>RussianLocalization</module>
         <module>GenerateCode</module>
+        <module>Security</module>
     </modules>
 
 </project>
