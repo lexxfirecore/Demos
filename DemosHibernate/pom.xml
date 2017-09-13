@@ -14,6 +14,9 @@
         <module>h4.3-demo</module>
         <module>h4.3-demo2</module>
         <module>h5.0-demo</module>
+        <module>DerbyMaven</module>
+        <module>DerbyHibernate</module>
+        <module>DemoValera</module>
     </modules>
 
 
