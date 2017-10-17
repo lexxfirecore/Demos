@@ -1,29 +1,32 @@
 package com.lexx.demos.webapps;
 
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-@RequestMapping("/hello")
+@RequestMapping("/")
 public class HelloController {
 
-    @RequestMapping(value = "/{name}", method = RequestMethod.GET)
-    public String getMovie(@PathVariable String name, ModelMap model) {
-
-        model.addAttribute("name", name);
-        return "list";
-
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)
+    public String printHello(ModelMap model) {
+        model.addAttribute("message_hello", "Hello Spring MVC Framework!");
+        return "hello";
     }
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String getDefaultMovie(ModelMap model) {
-
-        model.addAttribute("name", "this is default name");
-        return "list";
-
+    @RequestMapping(value = "/noroc", method = RequestMethod.GET)
+    public ModelAndView printNoroc() {
+        return new ModelAndView("noroc", "message_noroc", "Noroc Spring MVC Framework!");
     }
+
+    @RequestMapping(value="/js", method = RequestMethod.GET, produces = "application/javascript")
+    public String runJs(ModelMap model) {
+        return "js";
+    }
+
+
 
 }
