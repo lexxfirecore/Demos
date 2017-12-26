@@ -5,19 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lexx.demos.apps</groupId>
-    <artifactId>Applications</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>JMS_ActiveMQ</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <modules>
-        <module>SendMail</module>
-        <module>TextProcessor</module>
-        <module>RussianLocalization</module>
-        <module>GenerateCode</module>
-        <module>Security</module>
-        <module>JMS_ActiveMQ</module>
-        <module>JMS_JEE6</module>
-
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-all</artifactId>
+            <version>5.12.0</version>
+        </dependency>
+    </dependencies>
 
 </project>

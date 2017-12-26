@@ -15,9 +15,6 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.sun.deploy.util.StringUtils;
-
-
 /**
  * Created by alexandruco on 012, 12 May.
  */
