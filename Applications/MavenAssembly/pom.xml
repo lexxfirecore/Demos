@@ -5,8 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lexx.demos.apps</groupId>
-    <artifactId>Maven_Assembly</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>MavenAssembly</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
 
-    
+    <modules>
+        <module>SuperPom</module>
+        <module>TheModule</module>
+
+    </modules>
+
 </project>
