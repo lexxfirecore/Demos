@@ -6,16 +6,17 @@
     <groupId>com.lexx.demos.apps</groupId>
     <artifactId>TheModule</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>MavenAssembly - TheModule</name>
 
     <parent>
         <groupId>com.lexx.demos.apps</groupId>
-        <artifactId>SuperPom</artifactId>
-        <version>1.0.2</version>
+        <artifactId>ParentModule</artifactId>
+        <version>1.0-SNAPSHOT</version>
     </parent>
 
     <properties>
         <h2.version>1.4.196</h2.version>
-        <groovy.version>2.4.13</groovy.version>
     </properties>
 
     <dependencies>
@@ -33,17 +34,31 @@
             <artifactId>commons-logging-api</artifactId>
         </dependency>
 
-        <!-- This will overwrite groovy version 2.2.0 from SuperPom pom.xml to 2.4.13 -->
+        <!-- This will read dependency from ParentModule -->
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-all</artifactId>
-            <version>${groovy.version}</version>
         </dependency>
 
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.reactivex</groupId>
+            <artifactId>rxjava-string</artifactId>
+            <version>1.1.1</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.7</version>
+            <scope>provided</scope>
         </dependency>
 
     </dependencies>

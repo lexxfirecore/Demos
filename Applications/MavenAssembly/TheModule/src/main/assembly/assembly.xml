@@ -23,11 +23,17 @@
                 <!-- This will be taken from TheModule, version 2.4.13 -->
                 <include>org.codehaus.groovy:groovy-all</include>
 
-                <!-- Include jar by aproximate name -->
+                <!-- Include jar by aproximate group name, include even with scope compile -->
+                <include>*:*rxjava*</include>
+
+                <!-- Will not include jar because scope test -->
                 <include>*junit*</include>  <!--include all jars with name junit-->
 
                 <!-- This will not be included because does not exist in jar TheModule -->
                 <include>commons-io:commons-io</include>
+
+                <!-- This will not be included because scope is provided -->
+                <include>org.apache.commons:commons-lang3</include>
 
             </includes>
 

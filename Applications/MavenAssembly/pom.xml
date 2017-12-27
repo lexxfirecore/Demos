@@ -6,11 +6,13 @@
 
     <groupId>com.lexx.demos.apps</groupId>
     <artifactId>MavenAssembly</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <name>MavenAssembly - Root</name>
 
     <modules>
         <module>SuperPom</module>
+        <module>ParentModule</module>
         <module>TheModule</module>
 
     </modules>
