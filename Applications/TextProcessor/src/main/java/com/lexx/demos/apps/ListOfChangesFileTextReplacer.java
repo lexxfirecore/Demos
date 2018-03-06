@@ -30,6 +30,8 @@ public class ListOfChangesFileTextReplacer {
     private static final String CHANGES_ATT_CSV = "changes_gbd.csv";
     private static final String CHANGES_CKP_CSV = "changes_ckp.csv";
     private static final String CHANGES_NCPDP_CSV = "changes_ncpdp.csv";
+    private static final String CHANGES_HIX_CSV = "changes_hix.csv";
+
 
     private static final String OUT_PATH = "s:\\processor_out\\";
     private static List<String> listOfItems = new ArrayList<>();
@@ -62,7 +64,11 @@ public class ListOfChangesFileTextReplacer {
     //private static final String IN_PATH = "S:\\Projects\\tm\\engineering\\apps\\CNC\\CKP\\trunk\\dist\\standard\\src\\main\\resources\\GBD\\UI";
 
     // XML CDPD
-    private static final String IN_PATH = "S:\\Projects\\tm\\engineering\\components\\content-packs\\NCPDP\\trunk\\ncpdp\\src\\main\\resources\\GBD\\UI";
+//    private static final String IN_PATH = "S:\\Projects\\tm\\engineering\\components\\content-packs\\NCPDP\\trunk\\ncpdp\\src\\main\\resources\\GBD\\UI";
+
+    // XML HIX
+    private static final String IN_PATH = "S:\\Projects\\tm\\engineering\\components\\content-packs\\HIX-TRANSACTIONS\\trunk\\hix-content-pack\\src\\main\\resources\\GBD\\UI";
+
 
     public static void main(String[] args) {
 
@@ -72,9 +78,10 @@ public class ListOfChangesFileTextReplacer {
         //List<String> linesOfChangesFromFile = readFromFile(classLoader.getResource(CHANGES_GBD_CSV).getFile());
         //List<String> linesOfChangesFromFile = readFromFile(classLoader.getResource(CHANGES_ATT_CSV).getFile());
         //List<String> linesOfChangesFromFile = readFromFile(classLoader.getResource(CHANGES_CKP_CSV).getFile());
-        List<String> linesOfChangesFromFile = readFromFile(classLoader.getResource(CHANGES_NCPDP_CSV).getFile());
+        //List<String> linesOfChangesFromFile = readFromFile(classLoader.getResource(CHANGES_NCPDP_CSV).getFile());
+        List<String> linesOfChangesFromFile = readFromFile(classLoader.getResource(CHANGES_HIX_CSV).getFile());
         listOfChanges = getListOfChanges(linesOfChangesFromFile);
-        if (listOfChanges.size() != 16 && listOfChanges.size() != 31 && listOfChanges.size() != 22 && listOfChanges.size() != 9) { // Service Begin Date / Service End Date repeats
+        if (listOfChanges.size() != 16 && listOfChanges.size() != 31 && listOfChanges.size() != 22 && listOfChanges.size() != 9 && listOfChanges.size() != 34) { // Service Begin Date / Service End Date repeats
             System.out.println("not all changes loaded. Found only " + linesOfChangesFromFile.size());
             return;
         }
