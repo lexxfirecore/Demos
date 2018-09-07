@@ -13,7 +13,8 @@
         <module>SpringMVCDemo</module>
         <module>SpringBootDemo</module>
         <module>HibernateWebDemo</module>
-        <module>HibernateJPAWebDemo</module>        
+        <module>HibernateJPAWebDemo</module>
+        <module>JMS12</module>
     </modules>
 
 
