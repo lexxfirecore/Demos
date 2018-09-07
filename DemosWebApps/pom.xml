@@ -14,7 +14,8 @@
         <module>SpringBootDemo</module>
         <module>HibernateWebDemo</module>
         <module>HibernateJPAWebDemo</module>
-        <module>JMS12</module>
+        <module>demomvc</module>
+
     </modules>
 
 

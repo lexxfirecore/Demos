@@ -5,20 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lexx.demos.apps</groupId>
-    <artifactId>DemosApplications</artifactId>
+    <artifactId>Demos</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>SendMail</module>
-        <module>TextProcessor</module>
-        <module>RussianLocalization</module>
-        <module>GenerateCode</module>
-        <module>Security</module>
-        <module>JMS_ActiveMQ</module>
-        <module>JMS_JEE6</module>
-        <module>MavenAssembly</module>
-        <module>CreateExcelDoc</module>
+        <module>DemosApplications</module>
+        <module>DemosHibernate</module>
+        <module>DemosWebApps</module>
     </modules>
 
 </project>
