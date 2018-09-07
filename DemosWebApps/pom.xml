@@ -13,8 +13,7 @@
         <module>SpringMVCDemo</module>
         <module>SpringBootDemo</module>
         <module>HibernateWebDemo</module>
-        <module>HibernateJPAWebDemo</module>
-        <module>spring3-mvc-maven-xml-hello-world</module>
+        <module>HibernateJPAWebDemo</module>        
     </modules>
 
 
