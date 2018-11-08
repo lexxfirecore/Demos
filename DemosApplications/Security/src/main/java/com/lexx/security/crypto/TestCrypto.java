@@ -1,4 +1,4 @@
-package security;
+package com.lexx.security.crypto;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -7,7 +7,7 @@ public class TestCrypto {
 
     @Test
     public void testEncrypt() throws Exception {
-        String location = "security/config-server.jks";
+        String location = "com/lexx/security/crypto/config-server.jks";
         String password = "changeit";
         String alias = "config-server-key";
         String secret = "mys3cr3t";

@@ -1,4 +1,4 @@
-package security;
+package com.lexx.security.crypto;
 
 import javax.crypto.Cipher;
 import java.io.IOException;

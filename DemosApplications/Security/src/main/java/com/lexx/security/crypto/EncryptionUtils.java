@@ -1,4 +1,4 @@
-package security;
+package com.lexx.security.crypto;
 
 import org.springframework.cloud.config.server.encryption.EncryptionController;
 import org.springframework.cloud.config.server.encryption.KeyStoreTextEncryptorLocator;

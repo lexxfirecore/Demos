@@ -1,5 +1,5 @@
 
-package security;
+package com.lexx.security.crypto;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -9,7 +9,7 @@ import org.junit.Test;
 import java.security.KeyStoreException;
 
 public class TestEncryptionUtils {
-    String keyLocation = "security/config-server.jks";
+    String keyLocation = "com/lexx/security/crypto/config-server.jks";
     String keyAlias = "config-server-key";
     String password = "changeit";
     String secret = "mys3cr3t";

@@ -1,6 +1,6 @@
 
 
-package security;
+package com.lexx.security.crypto;
 
 
 public class ExceptionMessage {
